@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="./assets/FavIcon1.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Nick Tong</title>
+  </head>
+  <body class="light" id="top">
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Nick Tong.</span></h1>
+        <h2 class="about__role">Fullstack Developer</h2>
+        <p class="about__desc">
+          I am a new Fullstack Developer with a keen focus on delivering top-tier digital solutions. My experience lies in both front-end and back-end development, where I excel in crafting seamless user experiences and architecting robust applications.
+
+I bring a strong foundation core topics, coupled with a passion for staying at the forefront of emerging technologies. Throughout my career, I've demonstrated an aptitude for problem-solving and a commitment to delivering high-quality results.
+
+Collaboration is central to my approach, and I thrive in team environments where I can contribute my skills and learn from others. Let's connect to explore how I can leverage my expertise to support your digital initiatives and drive success.
+        </p>
+
+        <div class="about__contact center">
+          <a href="PUT RESUME LINK HERE" target="_blank">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/Inkorrect-Code"
+            aria-label="github"
+            class="link link--icon"
+            target="_blank" 
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/ntongprofessional/"
+            aria-label="linkedin"
+            class="link link--icon"
+            target="_blank" 
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+   
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Outfitter</h3>
+            <p class="project__description">
+              Outfitter is a JavaScript-based data visualization that assists the user in coordinating outfits based on the weather conditions of a desired location. Geolocation is used to default to the user's current location, and further allows input of any valid US zip code to choose a different location. From this point, a sex is specified and appropriate clothing categories will be available to select, allowing the user to pick specific clothing items of various styles from the list that appears.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">HTML</li>
+            </ul>
+
+            <a
+              href="https://github.com/Inkorrect-Code/Outfitter"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://Inkorrect-Code.github.io/Outfitter/"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank" 
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Pullit</h3>
+            <p class="project__description">
+              Pullit is a Reddit clone developed using React, Node.js, Typescript, and PostgreSQL. Users can sign up, login, and create posts/topics, as well as comment on others. Posts and comments, in classic Reddit fashion, can be upvoted or downvoted. In addition, numerous moderation tools have been implemented, allowing users to interact with communities or customize topics with custom banners/icons!
+            </p>
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">Ruby</li>
+              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Rails</li>
+            </ul>
+
+            <a
+              href="https://github.com/Inkorrect-Code/Pullit"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank" 
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://Inkorrect-Code.github.io/Pullit/"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank" 
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">TypeScript</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Redux</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">Node.JS</li>
+          <li class="skills__list-item btn btn--plain">AWS S3</li>
+          <li class="skills__list-item btn btn--plain">Google API</li>
+        </ul>
+      </section>
+
+     
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:ntongprofessional@gmail.com" >
+          <span class="btn btn--outline">Email me</span>
+        </a>
+        <br>
+        <a href="tel:{914-330-7338}" >
+          <span class="btn btn--outline">Call me</span>
+        </a>
+      </section>
+      <br>
+      <br>
+    </main>
+
+    
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
